@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+ <html lang="pt-br">
+     <head>
+        <Meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <link rel="stylesheet" href="estilo/exercicio.css">
+        <script defer src="script.js"></script>
+        <link rel="icon" href="imagens/logo.png">
+        <title>Programação linear</title>
+    </head>
+
+    <body>
+        <header>
+            <nav class="menu">
+
+                <input type="checkbox" class="menu-faketrigger">
+                <div class="menu-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="exercicios"><a href="#">Exercicios</li>
+                    <li><a href="video.html">Videos explicativos</li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+            <h1>Metodo simplex</h1>
+        </header>
+
+        <main>
+            <h2>Exercicios Propostos</h2>
+            <p>Resolva os exercicios abaixo e escolha as alternativas corretas</p>
+            <section>
+                <h3>Problema 1</h3>
+                <p>max F = 10x + 7x2<br>
+                   sujeito a: 2x1 + x2 <= 500<br>
+                x1, x2 >= 0</p>
+
+                <p>Qual o valor de F?<br>
+                   A: 8500/3<br> <!--Resposta correta-->
+                   B: 1500<br>
+                   C: 900/2<br>
+                   D: 1000<br>
+                      </p>
+                <fieldset>
+                    <form action="#" autocomplete="off" >
+                        <Label for="A">A</Label>
+                        <input type="radio" name="A" id="IDA">
+
+                        <label for="B">B</label>
+                        <input type="radio" name="B" id="IDB">
+
+                        <label for="C">C</label>
+                        <input type="radio" name="C" id="IDC">
+
+                        <label for="D">D</label>
+                        <input type="radio" name="D" id="IDD"><br>
+
+                        <input type="submit" value="Conferir resposta" onclick="Validacao1()">
+                        <input type="reset"  value="Limpar">
+                    </form>
+                </fieldset>
+               
+
+            </section>
+
+
+
+
+            <section>
+                <h3>Problema 2</h3>
+                <p>Max F= 2x1 + x2<br>
+                   sujeito a: x1 + x2 >= 2<br>
+                   x1 + x2 <= 4<br>
+                   x1, x2 >= 0<br></p>
+
+                <p>Qual o valor de F?<br>
+                   A: 150<br> 
+                   B: 20<br>
+                   C: 8<br><!--Resposta correta-->
+                   D: 10<br>
+                      </p>
+                <fieldset>
+                    <form action="#" autocomplete="off" >
+                        <Label for="A">A</Label>
+                        <input type="radio" name="A" id="IDA">
+
+                        <label for="B">B</label>
+                        <input type="radio" name="B" id="IDB">
+
+                        <label for="C">C</label>
+                        <input type="radio" name="C" id="IDC">
+
+                        <label for="D">D</label>
+                        <input type="radio" name="D" id="IDD"><br>
+
+                        <input type="submit" value="Conferir resposta" onclick="Validacao2()">
+                        <input type="reset"  value="Limpar">
+                    </form>
+                </fieldset>
+               
+
+            </section>
+
+
+
+            <section>
+                <h3>Problema 3</h3>
+                <p>Max F= x1 +2x2<br>
+                   sujeito a: -4x1 + x2 <= 4<br>
+                   2x1 - 3x2 <= 6<br>
+                   x1, x2 >= 0<br></p>
+
+                <p>Qual o valor de F?<br>
+                   A: 15<br> 
+                   B: 8<br>
+                   C: solução não limitada<br><!--Resposta correta-->
+                   D: 2<br>
+                      </p>
+                <fieldset>
+                    <form action="#" autocomplete="off" >
+                        <Label for="A">A</Label>
+                        <input type="radio" name="A" id="IDA">
+
+                        <label for="B">B</label>
+                        <input type="radio" name="B" id="IDB">
+
+                        <label for="C">C</label>
+                        <input type="radio" name="C" id="IDC">
+
+                        <label for="D">D</label>
+                        <input type="radio" name="D" id="IDD"><br>
+
+                        <input type="submit" value="Conferir resposta" onclick="Validacao3()">
+                        <input type="reset"  value="Limpar">
+                    </form>
+                </fieldset>
+               
+
+            </section>
+
+
+
+            <section>
+                <h3>Problema 4</h3>
+                <p>Min F = x1 + x2 + x3<br>
+                   sujeito a: -x1 + x2 >= 1<br>
+                   2x1 - 2x2 - x3 = 2<br>
+                   x1, x2, x3 >= 0<br></p>
+
+                <p>Qual o valor de F?<br>
+                   A: todos os valores são maiores que 0<br> <!--Resposta correta-->
+                   B: 112<br>
+                   C: solução não limitada<br>
+                   D: 21<br>
+                      </p>
+                <fieldset>
+                    <form action="#" autocomplete="off" >
+                        <Label for="A">A</Label>
+                        <input type="radio" name="A" id="IDA">
+
+                        <label for="B">B</label>
+                        <input type="radio" name="B" id="IDB">
+
+                        <label for="C">C</label>
+                        <input type="radio" name="C" id="IDC">
+
+                        <label for="D">D</label>
+                        <input type="radio" name="D" id="IDD"><br>
+
+                        <input type="submit" value="Conferir resposta" onclick="Validacao4()">
+                        <input type="reset"  value="Limpar">
+                    </form>
+                </fieldset>
+            </section>
+
+
+
+        </main>
+    </body>

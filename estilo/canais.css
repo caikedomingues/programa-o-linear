@@ -1,0 +1,18 @@
+
+div.video{
+	margin: 0px -20px 30px -20px;
+	padding: 20px;
+	padding-bottom: 58%;
+	position: relative;
+	text-align: center;
+}
+
+div.video > iframe{
+	position: absolute;
+	top: 5%;
+	left: 30%;
+	width: 50%;
+	height: 50%;
+
+
+}
